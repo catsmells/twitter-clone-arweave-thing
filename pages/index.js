@@ -157,7 +157,7 @@ function App() {
       {
         !bundlrInstance ? (
           <div className={horizontalPaddingStyle}>
-             <button className={button} onClick={connectCeramic}>Connect wallet to start chatting!</button>
+             <button className={button} onClick={connectCeramic}>Connect wallet to post!</button>
           </div>
         ) : balanceZero ? (
           <div className={horizontalPaddingStyle}>
